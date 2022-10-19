@@ -1,0 +1,51 @@
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--clr-400);
+    height: 72px;
+    margin: 1.5rem 0;
+}
+
+.box p {
+    padding-left: 1.5rem;
+    color: var(--clr-200);
+}
+
+.result {
+    display: flex;
+    margin-right: 1.5rem;
+    gap: .5rem;
+    align-items: center;
+}
+
+.result h2 {
+    text-transform: uppercase;
+    margin-right: .5rem;
+}
+
+.filled,
+.empty {
+    height: 28px;
+    width: 12px;
+}
+
+.empty {
+    border: 1px solid var(--clr-100)
+}
+
+.tooWeak .filled {
+    background-color: var(--clr-red);
+}
+
+.weak .filled {
+    background-color: var(--clr-orange);
+}
+
+.medium .filled {
+    background-color: var(--clr-yellow);
+}
+
+.strong .filled {
+    background-color: var(--clr-green);
+}

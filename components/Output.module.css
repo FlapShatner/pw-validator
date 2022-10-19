@@ -1,0 +1,38 @@
+.output {
+    display: flex;
+    background-color: var(--clr-300);
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0;
+    padding: 0 1.5rem;
+}
+
+.output input {
+    background-color: transparent;
+    border: none;
+    width: 18ch;
+    height: 70px;
+
+    font-size: var(--txt-lg);
+    color: var(--clr-100);
+}
+
+.output input::placeholder {
+    color: var(--clr-200)
+}
+
+.copy {
+    width: 21px;
+    height: 24px;
+}
+
+.btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    gap: 1rem;
+    color: var(--clr-green);
+}

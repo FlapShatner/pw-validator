@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.wrapper input {
+    margin-right: 1.5rem;
+}
+
+.wrapper input {
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+    background-color: transparent;
+    border: 1px solid var(--clr-100);
+    cursor: pointer;
+}
+
+.wrapper input:checked {
+    background: var(--clr-green);
+
+}

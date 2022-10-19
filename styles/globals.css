@@ -1,26 +1,70 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'JetBrains Mono', monospace;
+  background: var(--gradient);
+  color: var(--clr-100)
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+:root {
+  --txt-lg: 32px;
+  --txt-md: 24px;
+  --txt-p: 18px;
+
+  --clr-400: #18171F;
+  --clr-300: #24232C;
+  --clr-200: #817D92;
+  --clr-100: #E6E5EA;
+
+  --gradient: linear-gradient(#14131B, #08070B);
+  --clr-green: #A4FFAF;
+  --clr-red: #F64A4A;
+  --clr-orange: #FB7C58;
+  --clr-yellow: #F8CD65;
 }
