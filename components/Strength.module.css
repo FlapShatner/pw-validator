@@ -49,3 +49,17 @@
 .strong .filled {
     background-color: var(--clr-green);
 }
+
+@media(width <=660pc) {
+    .box {
+        height: 64px;
+    }
+
+    .box p {
+        padding-left: 1rem;
+    }
+
+    .result h2 {
+        font-size: var(--txt-p);
+    }
+}

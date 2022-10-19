@@ -81,3 +81,13 @@
     background-color: var(--clr-400);
     border: 1px solid var(--clr-green);
 }
+
+@media (width <=660px) {
+    .wrapper {
+        width: 343px;
+    }
+
+    .form {
+        padding: 1rem;
+    }
+}
